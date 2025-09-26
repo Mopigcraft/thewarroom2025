@@ -19,4 +19,8 @@ export const partners2022 = [
     src: "/images/partners2022/OC&C.png",
     href: "https://www.occstrategy.com/en/",
   },
+  {
+    src: "/images/partners2022/PG.jpg",
+    href: "https://pl.pg.com/",
+  },
 ];

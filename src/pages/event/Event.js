@@ -12,7 +12,7 @@ let iconFieldsValues = [
     {
         title: "When",
         icon: "fas fa-calendar-times",
-        content: "23-25 November 2022"
+    content: "19-21 November 2025"
     },
     {
         title: "Where",
@@ -87,16 +87,13 @@ let photoGridItems2020 = [
 function Event() {
     return (
         <>
-        <Intro backgroundImage={bg} title="WARroom 2022"/>
+    <Intro backgroundImage={bg} title="WARroom 2025"/>
         <section className="event-main">
             <div className="container">
                 <h3 className="primary">The Event</h3>
                 <div className="event-paragraph">
                     <h5>Warsaw Consulting Conference</h5>
                     <p>... is a reputable Management Consulting Conference in Poland gathering highly-talented CEMS MIM students from leading business schools. During the event, Participants will be faced with challenging case studies as well as networking possibilities. The event offers a possibility to obtain CEMS Skill Seminars.</p>
-                </div>
-                <div className="event-paragraph">
-                    <h5>Form of the Conference 2022</h5>
                     <p>As everyone longs to meet new people, this year's conference will be held on the spot in Warsaw. What we are certain of is that not only will participants take part in real business case studies organized by our corporate partners, but also they will have less formal occasions to interact.</p>
                 </div>
                 <IconFields
@@ -112,8 +109,18 @@ function Event() {
                 <p>For up to date information follow us on social media</p>
                 <Button
                     buttonType="secondary"
-                    buttonInnerText="Our Facebook"
+                    buttonInnerText="Facebook"
                     buttonURL="https://www.facebook.com/thewarroomconference"
+                />
+                <Button
+                    buttonType="secondary"
+                    buttonInnerText="Instagram"
+                    buttonURL="https://www.instagram.com/cemswarroom/"
+                />
+                <Button
+                    buttonType="secondary"
+                    buttonInnerText="LinkedIn"
+                    buttonURL="https://www.linkedin.com/company/the-warroom-warsaw-consulting-conference/"
                 />
             </div> 
         </section>
@@ -122,24 +129,6 @@ function Event() {
                 <h3 className="primary">How will it look like?</h3>
                 <IconFields
                     iconFieldsValues={iconFieldsValues2}
-                />
-            </div>
-        </section>
-        <section>
-            <div className="container">
-                <h3 className="primary">The WARroom 2020 highlights</h3>
-                <PhotoGrid
-                    photoGridItems={photoGridItems2020}
-                    gridType="photos"
-                />
-            </div>
-        </section>
-        <section>
-            <div className="container">
-                <h3 className="primary">The WARroom 2019 highlights</h3>
-                <PhotoGrid
-                    photoGridItems={photoGridItems2019}
-                    gridType="photos"
                 />
             </div>
         </section>

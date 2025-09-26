@@ -48,13 +48,13 @@ function Home() {
         isHigh={true}
         title={
           isMobile
-            ? "WARroom 2022"
-            : "WARroom | Warsaw Consulting Conference 2022"
+            ? "WARroom 2025"
+            : "WARroom | Warsaw Consulting Conference 2025"
         }
         subtitle={
           isMobile
             ? null
-            : "November 23-25, 2022 | Warsaw School of Economics | GMT +2"
+            : "November 19-21, 2025 | Warsaw School of Economics | GMT +1"
         }
       />
       <section className="home-cta">
@@ -68,9 +68,9 @@ function Home() {
           </h4>
           <p>
             {
-              //This year the WARroom Warsaw Consulting Conference will take place on 23-25 November 2022.<br/> The application will be open 27 September - 7 October.<br/>
+              //This year the WARroom Warsaw Consulting Conference will take place on 23-25 November 2025.<br/> The application will be open 27 September - 7 October.<br/>
             }
-            For more information, check out our Facebook page.
+            For more information, check out our socials.
           </p>
           {/*<Button 
                     buttonType="primary"
@@ -82,6 +82,11 @@ function Home() {
             buttonInnerText="Facebook"
             buttonURL="https://www.facebook.com/thewarroomconference"
           />
+          <Button
+            buttonType="primary"
+            buttonInnerText="Instagram"
+            buttonURL="https://www.instagram.com/cemswarroom/"
+          />
         </div>
       </section>
       <section>
@@ -89,6 +94,7 @@ function Home() {
           <IconFields iconFieldsValues={iconFieldsValues} />
         </div>
       </section>
+      {/* 2025 Strategic Partner section fully removed */}
       <section>
         <div className="container">
           <h3
@@ -97,20 +103,7 @@ function Home() {
               textAlign: "center",
             }}
           >
-            2022 Strategic Partner
-          </h3>
-          <PhotoGrid photoGridItems={partners2022Strategic} gridType="logos" />
-        </div>
-      </section>
-      <section>
-        <div className="container">
-          <h3
-            className="primary"
-            style={{
-              textAlign: "center",
-            }}
-          >
-            2022 Partners
+            2025 Partners
           </h3>
           <PhotoGrid photoGridItems={partners2022} gridType="logos" />
         </div>

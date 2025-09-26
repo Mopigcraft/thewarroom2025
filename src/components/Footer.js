@@ -21,7 +21,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/company/the-warroom-warsaw-consulting-conference/" className="footer-link"><i className="fab fa-linkedin"></i></a>
                 </div>
                 <p className="footer-copyright">
-                © Copyright CEMS Club Warsaw 2021, <a style={{"color": "white"}} href='/docs/WARroom_GDPR.pdf' download>GDPR</a>
+                © Copyright CEMS Club Warsaw 2025, <a style={{"color": "white"}} href='/docs/WARroom_GDPR.pdf' download>GDPR</a>
                 </p>
             </div>
         </footer>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './PhotoGrid.scss';
 import { useMediaQuery } from 'react-responsive';
 
 
